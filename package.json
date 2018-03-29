@@ -1,0 +1,37 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "nodejs学习-静态资源管理服务器项目",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuchunfen/anydoor.git"
+  },
+  "keywords": [
+    "static",
+    "webserver"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuchunfen/anydoor/issues"
+  },
+  "homepage": "https://github.com/fuchunfen/anydoor#readme",
+  "dependencies": {
+    "chalk": "^2.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "pre-commit": "^1.2.2"
+  }
+}
