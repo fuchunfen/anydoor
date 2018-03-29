@@ -31,7 +31,7 @@ module.exports = async function (req, res, filePath) {
           return {
             file,
             icon: mime(file)
-          }
+          };
         }),
         dir: dir ? `/${dir}` : '',
         title: path.basename(filePath)
