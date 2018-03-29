@@ -27,11 +27,15 @@
   },
   "homepage": "https://github.com/fuchunfen/anydoor#readme",
   "dependencies": {
-    "chalk": "^2.3.2"
+    "chalk": "^2.3.2",
+    "handlebars": "^4.0.11",
+    "has-flag": "^3.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.1",
+    "eslint-scope": "^3.7.1",
+    "optionator": "^0.8.2",
     "pre-commit": "^1.2.2"
   }
 }
