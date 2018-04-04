@@ -2,7 +2,10 @@
   "name": "anydoor",
   "version": "1.0.0",
   "description": "nodejs学习-静态资源管理服务器项目",
-  "main": "build/index.js",
+  "main": "src/app.js",
+  "bin":{
+    "anydoor":"bin/anydoor"
+  },
   "scripts": {
     "lint": "eslint .",
     "fix": "eslint --fix .",
@@ -29,7 +32,8 @@
   "dependencies": {
     "chalk": "^2.3.2",
     "handlebars": "^4.0.11",
-    "has-flag": "^3.0.0"
+    "has-flag": "^3.0.0",
+    "yargs": "^11.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
